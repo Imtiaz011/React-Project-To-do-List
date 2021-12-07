@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+.App h1{
+  font-size: 50px;
+}
+#inputbox{
+  margin: 30px;
+  padding: 5px;
+  border-radius: 30px;
+}
+/* add button */
+#add{
+  height: 25px;
+  color: black;
+  font-family: "fantasy";
+  font-weight: bold;
+  background-color: coral;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+/* btn-list */
+.btn-list{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  margin: 10px;
+  width: 180px;
+  height: 20px;
+  border: 1px solid white;
+  border-radius: 2px;
+  padding: 5px;
+  background: rgb(102, 29, 102);
+  font-family: "fantasy";
+  font-size: 16px;
+  font-weight: bold;
+}
+.btn-list button{
+  background-color: coral;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  padding: 2px;
+  border: 1px solid transparent;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.wrapper{
+  background: violet;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.Input-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 290px;
+  align-items: center;
+}
+
+.Input-wrapper input{
+  border-radius: 4%;
+  border: 0;
+  background-color: white;
+}
